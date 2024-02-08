@@ -11,7 +11,7 @@ function getIndex (firstArray) {
             for (let k = 0; k < firstArray.length; k++) {
                 if ((firstArray[i] + firstArray[j] + firstArray[k]) === targetNumber) {
                     console.log(firstArray[i], firstArray[j], firstArray[k]);
-                    return i, j, k;
+                    return [i, j, k];
                 }
             }
         }
