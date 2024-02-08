@@ -1,8 +1,8 @@
-//Sum of Two Numbers: Write a function that takes an array of numbers and a target number. 
-//The function should find two different numbers in the array that, when added together, give 
-//the target number. Return the indices of the two numbers.
+//Sum of 3 Numbers: Write a function that takes an array of numbers and a target number. 
+//The function should find three different numbers in the array that, when added together, give 
+//the target number. Return the indices of the three numbers.
 
-const firstArray = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100];
+const firstArray = [5, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100];
 const targetNumber = 50;
 
 function getIndex (firstArray) {
